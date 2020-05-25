@@ -1,0 +1,44 @@
+{
+  "author": {
+    "name": "Barış DEMİRCİ"
+  },
+  "bugs": {
+    "url": "https://github.com/barbarbar338/discord-paginate/issues"
+  },
+  "bundledependencies": false,
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^12.2.0",
+    "eris-collector": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Discord Paginate: Regardless of Eris or Discord.JS, simply paginate your content!",
+  "homepage": "https://github.com/barbarbar338/discord-paginate#readme",
+  "keywords": [
+    "pagination",
+    "discord.js",
+    "discordjs",
+    "eris",
+    "paginate",
+    "reaction",
+    "collector",
+    "collect",
+    "message",
+    "reaction-collector",
+    "message-collector",
+    "eris-collector",
+    "discord",
+    "reactions"
+  ],
+  "license": "MIT",
+  "main": "src/Pagination.js",
+  "name": "discord-paginate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbarbar338/discord-paginate.git"
+  },
+  "scripts": {
+    "test": "node example.js"
+  },
+  "version": "1.0.0"
+}

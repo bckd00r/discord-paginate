@@ -1,23 +1,11 @@
-Discord Paginate: Regardless of Eris or Discord.JS, simply paginate your content!
-======
-<p>A module that will make your job easier while creating paged content</p>
-<p>Easily paginate your content, regardless of whether you use Eris or Discord.JS</p>
-
-<b>[Discord: https://discord.com/invite/BjEJFwh](https://discord.com/invite/BjEJFwh)</b>
--------
-
-<b>Please Note: <b>
--------
-<p>System currently only supports Eris and DiscordJS. If you are using another module, you can tell us about it or you can contribute by adapting it to the module you use yourself. We are open to all kinds of help :)</p>
-
-<b>[NPM Page](https://www.npmjs.com/package/discord-paginate) [GITHUB Page](https://github.com/barbarbar338/discord-paginate)</b>
--------
-
-Usage
-------------
-<p>For Eris: </p>
-
-```js
+/* 
+  ______ ____  _____    ______ _____  _____  _____ 
+ |  ____/ __ \|  __ \  |  ____|  __ \|_   _|/ ____|
+ | |__ | |  | | |__) | | |__  | |__) | | | | (___  
+ |  __|| |  | |  _  /  |  __| |  _  /  | |  \___ \ 
+ | |   | |__| | | \ \  | |____| | \ \ _| |_ ____) |
+ |_|    \____/|_|  \_\ |______|_|  \_\_____|_____/                                                                
+*/
 
 /* Eris packages */
 const Eris = require("eris");
@@ -52,11 +40,15 @@ bot.on("messageCreate", async (message) => {
 /* Connect to Discord API */
 bot.connect();
 
-```
+/*
+  ______ ____  _____    _____ _____  _____  _____ ____  _____  _____       _  _____ 
+ |  ____/ __ \|  __ \  |  __ \_   _|/ ____|/ ____/ __ \|  __ \|  __ \     | |/ ____|
+ | |__ | |  | | |__) | | |  | || | | (___ | |   | |  | | |__) | |  | |    | | (___  
+ |  __|| |  | |  _  /  | |  | || |  \___ \| |   | |  | |  _  /| |  | |_   | |\___ \ 
+ | |   | |__| | | \ \  | |__| || |_ ____) | |___| |__| | | \ \| |__| | |__| |____) |
+ |_|    \____/|_|  \_\ |_____/_____|_____/ \_____\____/|_|  \_\_____(_)____/|_____/ 
+*/
 
-<p>For Discord.JS: </p>
-
-```js
 /* DiscordJS packages */
 const { Client } = require("discord.js");
 const client = new Client();
@@ -89,9 +81,3 @@ client.on("message", async (message) => {
 
 /* Connect to Discord API */
 client.login("BOT_TOKEN");
-```
-
-[Contact Me For More Help](https://www.is-my.fun/ulas)
--------------------
-
-\ ゜o゜)ノ
