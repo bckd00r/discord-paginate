@@ -9,7 +9,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "discord.js": "^12.2.0",
-    "eris-collector": "^1.0.0"
+    "eris-collector": "^1.0.1"
   },
   "deprecated": false,
   "description": "Discord Paginate: Regardless of Eris or Discord.JS, simply paginate your content!",
