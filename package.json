@@ -38,7 +38,7 @@
     "url": "git+https://github.com/barbarbar338/discord-paginate.git"
   },
   "scripts": {
-    "test": "node example.js"
+    "test": "node examples/discordjs.js"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

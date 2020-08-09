@@ -141,18 +141,15 @@ function Paginate(client, message, pages, options = {
         });
 
         backward.on("end", (collected, reason) => {
-            if (reason == "time") throw new SuperError("Specify a valid time", "TimeError");
-            if (reason != "ENDED") throw new SuperError(reason, "UnknownError");
+            if (reason != "time" && reason != "ENDED") throw new SuperError(reason, "UnknownError");
         });
 
         stop.on("end", (collected, reason) => {
-            if (reason == "time") throw new SuperError("Specify a valid time", "TimeError");
-            if (reason != "ENDED") throw new SuperError(reason, "UnknownError");
+            if (reason != "time" && reason != "ENDED") throw new SuperError(reason, "UnknownError");
         });
 
         forward.on("end", (collected, reason) => {
-            if (reason == "time") throw new SuperError("Specify a valid time", "TimeError");
-            if (reason != "ENDED") throw new SuperError(reason, "UnknownError");
+            if (reason != "time" && reason != "ENDED") throw new SuperError(reason, "UnknownError");
         });
 
         return {
